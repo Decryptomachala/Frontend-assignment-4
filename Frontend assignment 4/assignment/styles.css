@@ -1,0 +1,103 @@
+body{
+    background-color: #F0F2F5;
+}
+
+.fullscreen{
+   display: grid;
+   grid-template-columns: 1.2fr 0.9fr;
+   padding: 2rem 1rem 1rem 1rem;
+   font-family: Helvetica, Arial, sans-serif;
+   height: 100vh;
+}
+.textsection{
+padding: 0.75rem;
+display: grid;
+place-content: center;
+}
+
+.fullscreen .facebook .textsection p {
+    font-size: 30px;
+    margin-top: 2px;
+}
+
+.facebook{
+    padding-top: 10rem;
+    padding-left: 3rem;
+}
+
+.fullscreen .facebook .textsection span {
+    color: #0866FF;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.box{
+padding-top: 8rem;
+}
+
+.whitebox{
+    width: 22rem;
+    height: 19rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1rem;
+    display: grid;
+    box-shadow: 1px 1px 10px 2px rgb(211, 210, 210);
+
+}
+
+.box .whitebox span{
+    color: #408EF4;
+    display: flex;
+    justify-self: center;
+    height: fit-content;
+    width: fit-content;
+    margin: 15px;
+}
+.transparentbox{
+    border-radius: 5px;
+    border: solid 1px rgb(194, 194, 194);
+    opacity: 0.9;
+    height: 50px;
+    font-size: 17px;
+    padding-left: 15px;
+}
+.bluebox {
+    background-color: #408EF4;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+
+  }
+.greenbox {
+    background-color: #4eb936;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    justify-self: center;
+    font-size: large;
+    font-weight: bold;
+    cursor: pointer;
+    max-width: 12rem;
+    margin-bottom: 5px;
+    padding: 5px 12px 5px 12px;
+
+}
+p span {
+    font-weight: bold;
+}
+
+.box p {
+    position: relative;
+    left: 30px;
+    margin-top: 30px;
+}
